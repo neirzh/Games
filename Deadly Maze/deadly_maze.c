@@ -51,7 +51,8 @@ void load_maze_from_file(const char* filename)
                 if (x < strlen(line_buffer)) 
                 {
                     static_maze[y][x] = line_buffer[x];
-                } else 
+                } 
+                else 
                 {
                     static_maze[y][x] = ' ';
                 }
